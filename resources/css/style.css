@@ -1,0 +1,158 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+
+}
+
+/*HEADER*/
+
+header{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px white;
+  height: 69px;
+  position:fixed;
+  z-index: 1
+}
+
+img{
+  margin-left: 10px;
+  max-height: 50px;
+}
+
+a{
+  text-decoration: underline;
+  color: seashell;
+}
+
+span{
+  margin: 10px;
+}
+
+nav{
+  padding-left: 800px;
+}
+
+/*MISSION*/
+
+.mission{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top:70px;
+}
+
+.mission span{
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*TEA OF THE MONTH*/
+
+.month{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  top:100px;
+}
+
+.tea{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea img{
+  min-height: 200px;
+  min-width: 300px;
+}
+
+.tea h4{
+  margin-top: 10px;
+}
+
+/*LOCATIONS*/
+
+.locations{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: 0 -80px;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top:100px;
+}
+
+.locations h2{
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+.place{
+  display: flex;
+  justify-content: center;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 40px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.list{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.list h3{
+  padding: 0;
+  margin: 0;
+}
+
+/*FOOTER*/
+
+footer{
+  position: relative;
+  top: 80px;
+}
+.contact{
+  max-height: 200px;
+  margin: 0 auto;
+  position:relative;
+}
+
+.contact span{
+  padding: 0;
+  margin: 0;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 60px;
+}
